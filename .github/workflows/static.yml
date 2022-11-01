@@ -30,4 +30,4 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - run: ftp do360now.com
+      - run: ftp ${{FTP_USER}} do360now.com
